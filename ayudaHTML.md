@@ -1,7 +1,17 @@
+### Indice
 ## 01 - Formularios
 ## 02 - Tablas
 ### 01
 ```html
+<!-- Crear un formulario con varias respuestas para poder elegir -->
+<label for="marca">Marca</label>
+    <select name="" id="marca">
+        <option value="">Seleccione alguno</option>
+        <option value="">Perro</option>
+        <option value="">Gato</option>
+        <option value="">pescado</option>
+    </select>
+
 <!-- Como conectar un formulario -->
 <form>
         <label for="nombreApellido">Nombre y apellido</label>
